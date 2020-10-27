@@ -58,6 +58,7 @@ namespace FFXIVAPP.ResourceFiles {
         public static Bitmap InfoIcon20 = new Bitmap(GetResource($"{Constants.ThemePack}.fa-info-20.png"));
 
         public static Bitmap StarIcon20 = new Bitmap(GetResource($"{Constants.ThemePack}.fa-star-20.png"));
+        public static Bitmap PowerOffIcon20 = new Bitmap(GetResource($"{Constants.ThemePack}.fa-poweroff-20.png"));
 
         public static Bitmap GetImageByName(string name) {
             try {
