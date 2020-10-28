@@ -59,6 +59,11 @@ namespace FFXIVAPP.ResourceFiles {
 
         public static Bitmap StarIcon20 = new Bitmap(GetResource($"{Constants.ThemePack}.fa-star-20.png"));
         public static Bitmap PowerOffIcon20 = new Bitmap(GetResource($"{Constants.ThemePack}.fa-poweroff-20.png"));
+        public static Bitmap CameraIcon20 = new Bitmap(GetResource($"{Constants.ThemePack}.fa-camera-solid-20.png"));
+        public static Bitmap MaximizeIcon20 = new Bitmap(GetResource($"{Constants.ThemePack}.fa-window-maximize-regular-20.png"));
+        public static Bitmap MinimizeIcon20 = new Bitmap(GetResource($"{Constants.ThemePack}.fa-window-minimize-regular-20.png"));
+        public static Bitmap RestoreIcon20 = new Bitmap(GetResource($"{Constants.ThemePack}.fa-window-restore-regular-20.png"));
+        public static Bitmap SaveIcon20 = new Bitmap(GetResource($"{Constants.ThemePack}.fa-save-regular-20.png"));
 
         public static Bitmap GetImageByName(string name) {
             try {
